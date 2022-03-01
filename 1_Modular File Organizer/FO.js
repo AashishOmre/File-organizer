@@ -18,8 +18,8 @@
  const organize =require('./organize');
  const tree =require('./tree');
 
-const { organizekey } = require('./organize');
-const { treekey } = require('./tree');
+ const { organizekey } = require('./organize');
+ const { treekey } = require('./tree');
  let input = process.argv.slice(2); //It is an Array of type string. It is used to take input from cmd
  
  let command = input[0];  // tree, organize , help ,any invalid instruction
